@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from scripts import functions
-from langchain import hub # type: ignore
-from langchain_openai import ChatOpenAI # type: ignore
+from langchain import hub 
+from langchain_openai import ChatOpenAI 
 import utils
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
