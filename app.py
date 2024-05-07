@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-# Define function to send API requests to FastAPI server
+
 def send_api_request(endpoint, param1, param2):
     url = f"http://127.0.0.1:8000/{endpoint}/"
     if endpoint == 'web_qa':
@@ -14,7 +14,7 @@ def send_api_request(endpoint, param1, param2):
         return response.json()['text']
     return 'API fetch invalid'
 
-# Main app logic
+
 def main():
     option = st.sidebar.selectbox("Select an option", ("Web Chat", "Content Creator"))
 
@@ -38,6 +38,6 @@ def main():
             response = send_api_request(endpoint, data['format'], data['topic'])
             st.write(response)
 
-# Run the main app
+
 if __name__ == "__main__":
     main()
