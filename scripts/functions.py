@@ -36,12 +36,3 @@ def embedDocuments(documents):
                                     embedding=embeddings, 
                                     persist_directory=embeddings_path)
     return vectordb
-
-def chat_loop(vectordb, rag_chain):
-    while True:
-        question = input("\n" + "Ask a question (or type 'exit()' to quit): ")
-        if question.lower().strip() == 'exit()':
-            break
-        responce = rag_chain.invoke(question)
-        print(responce)
-    vectordb.delete_collection()
