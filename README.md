@@ -5,7 +5,7 @@ Web Content QA and Content Creation API
 
 ## Introduction
 
-This project provides an API that allows users to ask questions about web content and generate content based on specific formats and topics. It utilizes FastAPI and Streamlit frameworks for the backend and frontend, respectively.
+This project provides an API that allows users to ask questions about web content and generate content based on specific formats and topics. It utilizes FastAPI, Langchain, OpenAI API for the backend, and Streamlit for the front end respectively.
 
 ## Features
 
