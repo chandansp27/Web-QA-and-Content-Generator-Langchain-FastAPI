@@ -1,8 +1,16 @@
 # Yarnit-assessment
 Assignments for Yarnit Gen AI Engineer
 
-Web Content QA and Content Creation API
+## Web Content QA and Content Creation API
 
+Libraries Used
+- Langchain
+- openai
+- fastapi
+- streamlit
+- requests
+- pydantic
+  
 ## Demo Video
 
 https://drive.google.com/file/d/1eCVoU10cpp-Yt2112_0EPkOpnw4q-0SB/view?usp=sharing
