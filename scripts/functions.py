@@ -1,10 +1,10 @@
 import os
 import utils
-from langchain_community.document_loaders import AsyncHtmlLoader # type: ignore
-from langchain_community.document_transformers import Html2TextTransformer # type: ignore
-from langchain.text_splitter import RecursiveCharacterTextSplitter # type: ignore
-from langchain_openai import OpenAIEmbeddings # type: ignore
-from langchain_community.vectorstores import Chroma # type: ignore
+from langchain_community.document_loaders import AsyncHtmlLoader 
+from langchain_community.document_transformers import Html2TextTransformer 
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_openai import OpenAIEmbeddings 
+from langchain_community.vectorstores import Chroma 
 
 def getEnvVar(var_name):
     _value = os.getenv(var_name)
