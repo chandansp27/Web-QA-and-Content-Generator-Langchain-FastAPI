@@ -1,5 +1,5 @@
 # Yarnit-assessment
-Assignments for Yarnit Gen AI Engineer
+Assignments for Generative AI Engineer
 
 ## Web Content QA and Content Creation API
 
@@ -11,10 +11,6 @@ Libraries Used
 - requests
 - pydantic
   
-## Demo Video
-
-https://drive.google.com/file/d/1eCVoU10cpp-Yt2112_0EPkOpnw4q-0SB/view?usp=sharing
-
 ## Introduction
 
 This project provides an API that allows users to ask questions about web content and generate content based on specific formats and topics. It utilizes FastAPI, Langchain, OpenAI API for the backend, and Streamlit for the front end respectively.
