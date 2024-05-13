@@ -1,5 +1,4 @@
-# Yarnit-assessment
-Assignments for Generative AI Engineer
+# Assignments for Generative AI Engineer
 
 ## Web Content QA and Content Creation API
 
