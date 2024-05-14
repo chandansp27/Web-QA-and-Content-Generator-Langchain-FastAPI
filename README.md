@@ -1,4 +1,4 @@
-# Assignments for Generative AI Engineer
+# Assignments for a Generative AI Engineer role
 
 ## Web Content QA and Content Creation API
 
